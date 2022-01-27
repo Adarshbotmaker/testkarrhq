@@ -1,0 +1,33 @@
+{
+    "name": "MentionAllBot",
+    "logo": "https://telegra.ph//file/6defb8638220e9f9d9b97.jpg",
+    "description": "AN MEMBER TAGGER BOT",
+    "keywords": [
+        "",
+        "h"
+    ],
+    "repository": "github.com/testkarrhq",
+    "success_url": "t.me/alpha_bot_updates",
+    "env": {
+        "": {
+            "description": "hh",
+            "required": "True"
+        },
+        "\"LIKU": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
